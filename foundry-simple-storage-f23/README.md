@@ -1,66 +1,13 @@
-## Foundry
+# SimpleStorage Project from the Cyfrin Updraft Course
+## About
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This project is part of the Cyfrin Updraft course, which focuses on building a simple storage contract using Solidity. The contract allows users to fund a project and withdraw funds. It includes functions for funding, withdrawing, and checking the balance of the contract.
 
-Foundry consists of:
+## Requirements
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+Solidity, Foundry
 
-## Documentation
+## Contracts
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+SimpleStorage.sol: This is the main contract that allows users to fund a project and withdraw funds. It includes functions for funding, withdrawing, and checking the balance of the contract.
+SimpleStorageTest.sol: This is the test contract that tests the functionality of the main contract. It includes tests for funding, withdrawing, and checking the balance of the contract.
